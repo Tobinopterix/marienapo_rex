@@ -1,0 +1,193 @@
+:root {
+    --headerHeight: 40px;
+    --marienApoGreen: #98cb98;
+}
+
+@font-face {
+    font-family: "Kanit";
+    src: url(../fonts/Kanit-Regular.woff2);
+}
+
+@font-face {
+    font-family: "Great Vibes";
+    src: url(../fonts/GreatVibes-Regular.woff2);
+}
+
+h1,
+h2,
+h3 {
+    color: var(--marienApoGreen);
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+}
+
+h1 {
+    font-size: 1.4em;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+html,
+body {
+    font-family: Kanit;
+}
+
+.heroLogo {
+    filter: drop-shadow(0px 0px 2px #fff) drop-shadow(0px 0px 5px #fff) drop-shadow(0px 0px 6px #fff);
+    max-height: 80%;
+}
+
+header {
+    height: 450px;
+}
+
+.headerBG {
+    background-image: url(../images/hero/Header__HistorischerRueckblick_lg.webp);
+    filter: blur(2px) grayscale(1);
+}
+
+@media only screen and (max-width: 1390px) {
+    .headerBG {
+        background-image: url(../images/hero/Header__HistorischerRueckblick_md.webp);
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .headerBG {
+        background-image: url(../images/hero/Header__HistorischerRueckblick_sm.webp);
+    }
+}
+
+/* Nav */
+.navContainer {
+    height: var(--headerHeight);
+    background-color: #fff;
+    z-index: 20;
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+    display: table;
+}
+.navContainer ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.topHeadContainer {
+    /*margin-top: 13px;*/
+    display: table-row;
+    width: 100%;
+}
+
+nav ul li a{
+    color: #777;
+}
+
+nav ul li.active a {
+    color: #98cb98;
+}
+
+nav ul li:hover a {
+    color: #333;
+}
+
+/* Mobile Nav*/
+.mobileNavButtonContainer {
+    border: 1px solid #98cb98;
+    background-color: white;
+}
+
+.mobileNavButtonContainer img {
+    margin-top: -2px;
+}
+
+.mobilenavcontainer {
+    background-color: rgb(255, 255, 255);
+}
+
+.mobilenavcontainer li {
+    margin-left: 0;
+}
+
+.mobileNavItem {
+    width: 100%;
+}
+
+.sectionGrey {
+    background-color: #f4f4f4;
+    min-height: 100px;
+}
+
+.svgGreen {
+    filter: invert(79%) sepia(14%) saturate(689%) hue-rotate(71deg) brightness(95%) contrast(89%);
+}
+
+.titlephone,
+.openingHours {
+    background-color: white;
+    color: #737373;
+    position: relative;
+    font-size: 11px;
+    display: table-cell;
+    display: table-cell;
+    width: 200px;
+}
+.titlephone .dTable,
+.openingHours .dTable {
+    position: absolute;
+    min-height: var(--headerHeight);
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.openingHours .dTable {
+    right: 5px;
+}
+.clockContainer {
+    vertical-align: middle;
+}
+
+.openingHoursClock {
+    width: 30px;
+    margin-left: 5px;
+}
+
+.phoneIcon {
+    height: 25px;
+    margin-left: 10px;
+    width: 30px;
+    margin-right: 5px;
+}
+
+.h2Spacer {
+    height: 57px;
+    display: block;
+}
+
+.spacedImg {
+    padding: 0 40px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    font-size: 11px;
+    min-height: 200px;
+    padding: 40px;
+}
+footer .row {
+    margin: 20px;
+}
+
+footer a {
+    color: var(--marienApoGreen);
+}

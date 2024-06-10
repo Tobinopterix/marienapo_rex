@@ -1,0 +1,50 @@
+<div class="container-fluid">
+            <div class="row posRel">
+                <div class="col-lg-12 noPadding navContainer  ">
+                    <div class="topHeadContainer">
+                        <div class="titlePhone" >
+                            <div class="dTable">
+                                <div class="dRow">
+                                    <div class="dCell" >
+                                        <img class="svgGreen phoneIcon" src="./assets/apomain/images/fontawesome/phone.svg"> 
+                                    </div>
+                                    <div class="dCell" >
+                                        09947 / 1224
+                                    </div>
+                                </div>
+                            </div>   
+                        </div>
+
+
+
+						<?= /* REX_TEMPLATE[13] */ rex_var_template::getTemplateOutput(13, new rex_timer(), require rex_var_template::getTemplateStream(13, $this)), "\n" ?>
+
+
+
+                        <div class="openingHours">
+                            <div class="dTable">
+                                <div class="dRow">
+                                    <div class="dCell" id="openingHours"></div>
+                                    <div class="dCell clockContainer" >
+                                        <img  class="svgGreen openingHoursClock"
+                                            src="./assets/apomain/images/fontawesome/clock.svg">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <header class="row posRel">
+                <div data-speed-y="5" data-offset="-50" class="col-lg-12 noPadding headerBG "></div>
+                <div class="col-lg-12 noPadding posRel">
+
+                    <!--<img class="img-fluid heroImage" src="./assets/images/Header_Start.jpg">-->
+                    <img class="heroLogo" src="./assets/apomain/images/LogoMitDeko_sg.svg" alt="">
+                </div>
+
+
+
+            </header>
+        </div>

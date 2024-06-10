@@ -1,0 +1,20 @@
+package: markitup
+version: '3.7.4'
+author: Friends Of REDAXO
+supportpage: github.com/FriendsOfREDAXO/markitup
+
+page:
+    title: 'translate:title'
+    perm: markitup[]
+    pjax: true
+    subpages:
+        profiles: { title: 'translate:profiles', perm: 'markitup[profiles]' }
+        snippets: { title: 'translate:snippets', perm: 'markitup[snippets]' }
+        overview: { title: 'translate:description', subPath: README.md }
+
+conflicts:
+    packages:
+        textile: '*'
+
+requires:
+    redaxo: '^5.2.0'

@@ -1,0 +1,10 @@
+name: '08 . Download Hilfstemplate'
+key: null
+active: true
+attributes:
+    ctype: {  }
+    modules:
+        1: { all: 0 }
+    categories:
+        0: '6'
+        all: 0

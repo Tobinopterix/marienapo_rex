@@ -1,0 +1,36 @@
+package: yform
+version: '4.1.1'
+author: 'Jan Kristinus, Gregor Harlan'
+supportpage: 'https://github.com/yakamara/redaxo_yform/issues'
+compile: 0
+
+page:
+    title: 'translate:yform'
+    pjax: false
+    icon: rex-icon rex-icon-module
+    subpages:
+        setup:
+            title: 'translate:setup'
+            perm: admin
+        docs:
+            title: 'translate:docs'
+            perm: admin[]
+            pjax: false
+            itemclass: pull-right
+            icon: rex-icon fa-info-circle
+
+stylesheets:
+    - yform.css
+    - popup.css
+
+requires:
+    redaxo: '^5.15.0'
+    php:
+        version: '^8.1'
+
+system_plugins:
+    - manager
+    - email
+
+installer_ignore:
+    - .tools

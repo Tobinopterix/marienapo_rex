@@ -1,0 +1,1 @@
+2024-06-03T14:50:15+02:00 | rex_sql_could_not_connect_exception | Could not connect to database | redaxo/src/core/lib/sql/sql.php | 151 | http://localhost/marienapo_rex/redaxo/index.php?page=credits&_=1717410404871

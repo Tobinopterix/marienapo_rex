@@ -1,0 +1,19 @@
+package: redaxo_url_rewrite
+version: '1.0'
+author: Benjamin Hacker
+supportpage: benjamin-hacker.de
+docspage: benjamin-hacker.de
+
+page:
+  title: 'translate:titel'
+  icon: rex-icon fa-link
+  perm: admin
+  subpages:
+    konfiguration: { title: 'translate:page_konfiguration_titel' }
+    beschreibung: { title: 'translate:page_beschreibung_titel' }
+    webroot: { title: 'translate:page_webroot_titel' }
+
+requires:
+  php:
+    version: '>=7.4.0'
+  redaxo: '>=5.0.0'

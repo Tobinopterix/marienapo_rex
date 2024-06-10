@@ -1,0 +1,11 @@
+titel = Easy Url Rewrite
+page_konfiguration_titel = Configuration
+page_beschreibung_titel = Description
+
+page_konfiguration_text_1 = This addon only works properly if the .htaccess in the root directory is correctly adjusted.
+page_konfiguration_text_2 = If you have a .htaccess in the root directory, it will be backed up and a adjusted one deposit.
+page_konfiguration_button_konfiguration_hinterlegen = Install .htaccess Configuration
+page_konfiguration_erfolgtext_konfiguration_hinterlegen = Configuration successfully installed
+
+
+page_beschreibung_text_1 = This addon replaces the default Redaxo Get-Params (?article_id=1&clang=1) by searchengine- and visitorfriendly URL.
